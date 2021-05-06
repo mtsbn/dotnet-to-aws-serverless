@@ -42,7 +42,9 @@
 Essas configurações podem não ser necessárias em todos os projetos
 
 <h3>Swagger</h3> 
-- Acessar o arquivo **Startup.cs** e alterar o SwaggerEndpoint de `"/swagger/v1/swagger.json"` para `"v1/swagger.json"`
+
+- Acessar o arquivo **Startup.cs** e alterar o SwaggerEndpoint de `/swagger/v1/swagger.json` para `v1/swagger.json`
 
 <h3>AppSettings</h3> 
+
 - Caso o projeto tenha um AppSettings.json com variaveis de ambiente, precisa trocar essas variáveis para valores reais, ou configurar as variáveis dentro da AWS 
