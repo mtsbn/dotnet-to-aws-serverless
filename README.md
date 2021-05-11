@@ -9,7 +9,7 @@
 - [Configurar o AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-configure-quickstart.html) 
 
 - Instalar ferramento do AWS Lambda no dotnet CLI: 
-   `  dotnet tool install -g Amazon.Lambda.Tools`
+   `dotnet tool install -g Amazon.Lambda.Tools`
    
 <h2>Configuração</h2> 
 
@@ -26,10 +26,10 @@
  
  - Adicionar dentro dos arquivos criados, o conteúdo dos arquivos desse repositório.
  
- > Caso necessário, ajudar a sessão **Handler** do arquivo **serverless.template** com o nome do projeto. 
+ > Caso necessário, ajustar a sessão **Handler** do arquivo **serverless.template** com o nome do projeto. 
  
  - Criar um bucket no S3 onde ficará armazenado o o código **(trocar nome do bucket para cada serviço)**:
- `aws s3 mb s3://service-api-serverless-store --region sa-east-1 
+ `aws s3 mb s3://service-api-serverless-store --region sa-east-1`
  
 <h2>Deploy</h2> 
 
