@@ -1,4 +1,4 @@
-<h1> Migração .Net com kubernetes para AWS Lambda Serverless </h1>
+<h1> Configurar um projeto .Net para ser compatível com AWS Lambda Serverless </h1>
 
 <h2>Pré configuração</h2>
 
